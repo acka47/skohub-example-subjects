@@ -56,4 +56,20 @@
 
 :foreignLanguages a skos:Concept;
             skos:topConceptOf : ;
+            skos:narrower :german, :french, :spanish;
             skos:prefLabel "Foreign Languages"@en, "Fremdpsrachen"@de .
+
+:german a skos:Concept;
+            skos:inScheme : ;
+            skos:broader :foreignLanguages ;
+            skos:prefLabel "German"@en, "Deutsch als Fremdsprache"@de .
+
+:french a skos:Concept;
+            skos:inScheme : ;
+            skos:broader :foreignLanguages ;
+            skos:prefLabel "French"@en, "Französoisch"@de .
+
+:spanish a skos:Concept;
+            skos:inScheme : ;
+            skos:broader :foreignLanguages ;
+            skos:prefLabel "Spanish"@en, "Spanisch"@de .
