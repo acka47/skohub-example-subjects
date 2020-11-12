@@ -31,7 +31,7 @@ jobs:
 
       - run: mkdir data
 
-      - run: git clone https://github.com/acka47/skohub-docker-vocabs.git data/
+      - run: git clone https://github.com/acka47/skohub-example-subjects.git data/
 
       - name: make .env.production file
         run: echo "PATH_PREFIX=/skohub-example-subjects" > .env.production
